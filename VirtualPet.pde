@@ -1,19 +1,23 @@
 background (255,255,255);
 fill (#AFADAF);
+//Head
 noStroke ();
 ellipse (190,160,230,220);
-
+//Eyes
 fill (255,255);
 size (400,400);
 ellipse (132,130,60,90);
 ellipse (250,130,60,90);
+//Nose
 fill (#FF81FF);
 ellipse (190,190,60,20);
+//Whiskers and Mouth
 stroke (#030303);
 line (90,210,165,190);
 line (90,190,165,190);
 line (290,210,215,190);
 line (290,190,215,190);
+//Ears
 fill (0,0,0);
 ellipse (142,160,30,30);
 ellipse (240,160,30,30);
@@ -29,3 +33,12 @@ stroke (#030303);
 line (193,230,208,250);
 line (193,230,178,250);
 noFill ();
+
+
+
+
+
+
+
+
+
