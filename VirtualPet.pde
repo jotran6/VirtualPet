@@ -1,13 +1,17 @@
-background (255,255,255);
-
+void setup()
+{
+  background (255,255,255);
+  size (400,400);
+}
 //Head
-noStroke ();
+void draw() {
+ noStroke ();
 fill (#AFADAF);
 ellipse (190,160,230,220);
 
+
 //Eyes
 fill (255,255);
-size (400,400);
 ellipse (132,130,60,90);
 ellipse (250,130,60,90);
 //Nose
@@ -35,7 +39,7 @@ stroke (#030303);
 line (193,230,208,250);
 line (193,230,178,250);
 noFill ();
-
+}
 
 
 
