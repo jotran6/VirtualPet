@@ -1,8 +1,10 @@
 background (255,255,255);
-fill (#AFADAF);
+
 //Head
 noStroke ();
+fill (#AFADAF);
 ellipse (190,160,230,220);
+
 //Eyes
 fill (255,255);
 size (400,400);
@@ -33,4 +35,14 @@ stroke (#030303);
 line (193,230,208,250);
 line (193,230,178,250);
 noFill ();
+
+
+
+
+
+
+
+
+
+
 
